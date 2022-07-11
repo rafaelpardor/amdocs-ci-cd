@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home_view():
         return "<h1>Welcome to Geeks for Geeks</h1>"
 
-if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+# if __name__ == "__main__":
+#     app.run(debug=True, host='0.0.0.0')
 
 
